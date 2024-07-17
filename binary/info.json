@@ -1,0 +1,7 @@
+{
+	"name": "binary",
+	"brief": "Basic HEX-viewer to preview binary data",
+	"description": "Basic HEX-viewer to preview binary data.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

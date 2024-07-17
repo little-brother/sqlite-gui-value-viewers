@@ -1,0 +1,65 @@
+[
+  {
+    "name": "audio",
+    "brief": "Play mp3 and wav files",
+    "description": "Play mp3 and wav files.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "binary",
+    "brief": "Basic HEX-viewer to preview binary data",
+    "description": "Basic HEX-viewer to preview binary data.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "image",
+    "brief": "Preview images",
+    "description": "Preview images and show their size.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "json",
+    "brief": "Show json-data as a tree",
+    "description": "Show json-data as a tree.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "pdf",
+    "brief": "PDF viewer",
+    "description": "PDF viewer. Required Sumatra PDF.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "text",
+    "brief": "Basic text viewer",
+    "description": "Basic text viewer.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "time",
+    "brief": "Show UNIX-time as a date-time string",
+    "description": "Show UNIX-time as a date-time string.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "uuid",
+    "brief": "Show 16-bit BLOB as UUID-string",
+    "description": "Show 16-bit BLOB as UUID-string",
+    "version": "1.0.0",
+    "author": "little-brother"
+  },
+  {
+    "name": "xml",
+    "brief": "Show XML-data as a tree",
+    "description": "Show XML-data as a tree.",
+    "version": "1.0.0",
+    "author": "little-brother"
+  }
+]

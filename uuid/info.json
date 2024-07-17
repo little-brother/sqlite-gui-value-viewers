@@ -1,0 +1,7 @@
+{
+	"name": "uuid",
+	"brief": "View 16-bit BLOB as UUID-string",
+	"description": "View 16-bit BLOB as UUID-string",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

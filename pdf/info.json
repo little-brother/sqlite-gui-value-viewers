@@ -1,0 +1,7 @@
+{
+	"name": "pdf",
+	"brief": "PDF viewer",
+	"description": "PDF viewer. Required Sumatra PDF.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

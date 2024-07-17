@@ -1,0 +1,7 @@
+{
+	"name": "json",
+	"brief": "View json-data as a tree",
+	"description": "View json-data as a tree.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

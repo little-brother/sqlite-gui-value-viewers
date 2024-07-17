@@ -1,0 +1,7 @@
+{
+	"name": "image",
+	"brief": "Basic image viewer",
+	"description": "Basic image viewer.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

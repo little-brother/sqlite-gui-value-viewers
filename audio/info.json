@@ -1,0 +1,7 @@
+{
+	"name": "audio",
+	"brief": "Play mp3 and wav files",
+	"description": "Play mp3 and wav files.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}

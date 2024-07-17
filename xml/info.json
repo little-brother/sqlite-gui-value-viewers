@@ -1,0 +1,7 @@
+{
+	"name": "xml",
+	"brief": "View XML-data as a tree",
+	"description": "View XML-data as a tree.",
+	"version": "1.0.0",
+	"author": "little-brother"
+}
