@@ -15,15 +15,15 @@
   },
   {
     "name": "image",
-    "brief": "Preview images",
-    "description": "Preview images and show their size.",
+    "brief": "Basic image viewer",
+    "description": "Basic image viewer.",
     "version": "1.0.0",
     "author": "little-brother"
   },
   {
     "name": "json",
-    "brief": "Show json-data as a tree",
-    "description": "Show json-data as a tree.",
+    "brief": "View json-data as a tree",
+    "description": "View json-data as a tree.",
     "version": "1.0.0",
     "author": "little-brother"
   },
@@ -43,22 +43,22 @@
   },
   {
     "name": "time",
-    "brief": "Show UNIX-time as a date-time string",
-    "description": "Show UNIX-time as a date-time string.",
+    "brief": "View UNIX-time as a date-time string",
+    "description": "View UNIX-time as a date-time string.",
     "version": "1.0.0",
     "author": "little-brother"
   },
   {
     "name": "uuid",
-    "brief": "Show 16-bit BLOB as UUID-string",
-    "description": "Show 16-bit BLOB as UUID-string",
+    "brief": "View 16-bit BLOB as UUID-string",
+    "description": "View 16-bit BLOB as UUID-string",
     "version": "1.0.0",
     "author": "little-brother"
   },
   {
     "name": "xml",
-    "brief": "Show XML-data as a tree",
-    "description": "Show XML-data as a tree.",
+    "brief": "View XML-data as a tree",
+    "description": "View XML-data as a tree.",
     "version": "1.0.0",
     "author": "little-brother"
   }
