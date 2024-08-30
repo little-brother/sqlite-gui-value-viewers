@@ -2,6 +2,6 @@
 	"name": "time",
 	"brief": "View UNIX-time as a date-time string",
 	"description": "View UNIX-time as a date-time string.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "little-brother"
 }

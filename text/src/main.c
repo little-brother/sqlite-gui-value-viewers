@@ -10,9 +10,13 @@
 
 #define IDC_PLUGIN               100
 #define PLUGIN_NAME              TEXT("text")
-#define PLUGIN_VERSION           "1.0.0"
+#define PLUGIN_VERSION           "1.0.1"
 
+#define SQLITE_INTEGER           1
+#define SQLITE_FLOAT             2
 #define SQLITE_TEXT              3
+#define SQLITE_BLOB              4
+#define SQLITE_NULL              5
 
 static TCHAR iniPath[MAX_PATH] = {0};
 
@@ -23,7 +27,7 @@ LRESULT CALLBACK cbNewPlugin(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 POINTFLOAT getWndScale(HWND hWnd);
 
 HWND __stdcall view (HWND hParentWnd, const unsigned char* data, int dataLen, int dataType, TCHAR* outInfo16, TCHAR* outExt16) {
-	if (dataType != SQLITE_TEXT)
+	if (dataType == SQLITE_BLOB || dataType == SQLITE_NULL)
 		return 0;
 
 	HWND hPluginWnd = CreateWindow(TEXT("RICHEDIT50W"), (TCHAR*)data, 

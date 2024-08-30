@@ -2,6 +2,6 @@
 	"name": "text",
 	"brief": "Basic text viewer",
 	"description": "Basic text viewer.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "little-brother"
 }

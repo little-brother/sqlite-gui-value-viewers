@@ -10,9 +10,13 @@
 
 #define IDC_PLUGIN               100
 #define PLUGIN_NAME              TEXT("time")
-#define PLUGIN_VERSION           "1.0.0"
+#define PLUGIN_VERSION           "1.0.1"
 
+#define SQLITE_INTEGER           1
+#define SQLITE_FLOAT             2
 #define SQLITE_TEXT              3
+#define SQLITE_BLOB              4
+#define SQLITE_NULL              5
 
 static TCHAR iniPath[MAX_PATH] = {0};
 
@@ -21,11 +25,11 @@ int getStoredValue(const TCHAR* name, int defValue);
 TCHAR* getStoredString(TCHAR* name, TCHAR* defValue);
 
 HWND __stdcall view (HWND hParentWnd, const unsigned char* data, int dataLen, int dataType, TCHAR* outInfo16, TCHAR* outExt16) {
-	if (dataType != SQLITE_TEXT || (dataLen != 10 && dataLen != 13))
+	if (dataType == SQLITE_BLOB || dataType == SQLITE_NULL || (dataLen != 10 && dataLen != 13))
 		return 0;
 
 	for (int i = 0; i < dataLen; i++) {
-		if (!_istdigit(data[i]))
+		if (!_istdigit(((TCHAR*)data)[i])) 
 			return 0;
 	}
 
@@ -34,7 +38,6 @@ HWND __stdcall view (HWND hParentWnd, const unsigned char* data, int dataLen, in
 		return 0;
 
 	struct tm* ptm = gmtime (&rawtime);
-
 	TCHAR time16[256];
 	TCHAR* format16 = getStoredString(TEXT("format"), TEXT("%d-%m-%Y %H:%M:%S, %A"));
 	_tcsftime(time16, 256, format16, ptm);
